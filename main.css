@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(3, 143, 3);
+}
+
+.about, .contact{
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+p{
+    /* text-align: center; */
+}
+
+.menuBar{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.ksu-image{
+    width: 200px;
+    height: 200px;
+    padding: 0 25px; /*this is only left/right padding */
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
