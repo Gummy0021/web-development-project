@@ -17,8 +17,29 @@
     </div>
     <hr>
     <div>
-        <p>Add your about me text here</p>
+        <p>
+        <ul><a href="mailto:cmoor315@students.kennesaw.edu">email: cmoor315@students.kennesaw.edu</a></ul>
+        <ul><a href="tel:4705786000">phone: (404)-...-....</a></ul>
+        </p>
     </div>
+<main>
+
+    <section class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="/send" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="submit">Send</button>
+        </form>
+    </section>
+    </main>
 </body>
 
 </html>

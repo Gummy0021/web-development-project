@@ -1,13 +1,21 @@
 body{
-    background-color: rgb(3, 143, 3);
+    background-color: wheat;
 }
 
 .about, .contact{
-    color: red;
+    color: navy;
     font-size: 25px;
     text-decoration: none;
     text-align: center;
     display: block;
+}
+
+ul{
+    margin: 1px;
+}
+
+h1,h2,h3,h4,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1{
@@ -21,7 +29,17 @@ h1{
     background-color: black;
 }
 
+h4{
+    font-family: Ariel, sans-serif;
+    border: 1px;
+    padding: 5px;
+    margin: 1px;
+}
+
 p{
+    font-family: Ariel, sans-serif;
+    margin: 0;
+    padding: 0;
     /* text-align: center; */
 }
 
@@ -41,4 +59,62 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.about-me img {
+    float: left;
+    margin-right: 20px;
+    width: 150px; /* Adjust based on your image's size */
+    height: auto;
+}
+
+.contact-form {
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    margin-top: 5px;
+}
+
+.submit{
+    width: 200px;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid green; 
+    border-radius: 20px;
+}
+
+.about-paragraph, .homepage-paragraph{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.about-me, .homepage-content{
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+   text-align: center;
+}
+
+.ksu-campus{
+    width: 300px;
+}
+
+.homepage-text{
+    color: navy;
+    text-align: center;
+    margin: 10px 0;
 }
