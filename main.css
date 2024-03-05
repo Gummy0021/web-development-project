@@ -40,12 +40,10 @@ p{
     font-family: Ariel, sans-serif;
     margin: 0;
     padding: 0;
-    /* text-align: center; */
 }
 
 .menuBar{
     display: flex;
-    /* justify-content: center; */
     gap: 30px;
 }
 
@@ -64,8 +62,8 @@ p{
 .about-me img {
     float: left;
     margin-right: 20px;
-    width: 150px; /* Adjust based on your image's size */
-    height: auto;
+    width: 150px;
+    height: auto; /* Adjust based on your image's size */
 }
 
 .contact-form {
